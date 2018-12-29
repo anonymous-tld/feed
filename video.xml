@@ -13,7 +13,7 @@ $uhrzeit = date("H:i:s",$timestamp);
     <title>Anonymous</title>
     <description>Broadcast</description>
     <language>de</language>
-    <link>http://anonymous.support/video</link>
+    <link>http://anonymous.support/play</link>
     <lastBuildDate><?php echo $datum," ",$uhrzeit," +2000"; ?></lastBuildDate>
 
     <item>
