@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?php
+date_default_timezone_set("Europe/Berlin");
+$timestamp = time();
+?>
+<?php
+$datum = date("D, d M Y",$timestamp);
+$uhrzeit = date("H:i:s",$timestamp);
+?>
+<rss version="2.0">
+  <channel>
+
+    <title>Anonymous</title>
+    <description>Broadcast</description>
+    <language>de</language>
+    <link>http://anonymous.support/video</link>
+    <lastBuildDate><?php echo $datum," ",$uhrzeit," +2000"; ?></lastBuildDate>
+
+    <item>
+      <title>#Berlin 24.12.2018 - #Weihnachtsmann für obdachlose #OpSafeWinter</title>
+      <description><![CDATA[
+      Obdachlosenhilfe in Berlin am Heilig Abend mit Weihnachtsmann auf Berlins größter Weihnachtsfeier für wohnungslose Menschen
+      <a href=http://anonymous.support/play/?v=khGyi7WGvUU><img alt="anonymous.support" align="left"
+      style="margin-left: 10px;" src="http://anonymous.support/live/play.png" BORDER=0 /></a>]]>
+      </description>
+      <link>http://anonymous.support/play/?v=khGyi7WGvUU</link>
+      <pubDate>Wed, 26 Dec 2018 18:00:00 +0200</pubDate>
+      <time>26.12.2016 18:00</time>
+      <guid>http://anonymous.support/play/?v=khGyi7WGvUU</guid>
+    </item>
+    
+    <item>
+      <title>LIVE: Bescherung mit Weihnachtsmann im Yaam</title>
+      <description><![CDATA[
+      Der Weihnachtsmann ist im Yaam unterwegs, um obdachlose in Berlin zu beschenken!
+      <a href=http://anonymous.support/play/?v=VUKWDF03qjE><img alt="anonymous.support" align="left"
+      style="margin-left: 10px;" src="http://anonymous.support/live/play.png" BORDER=0 /></a>]]>
+      </description>
+      <link>http://anonymous.support/play/?v=VUKWDF03qjE</link>
+      <pubDate>Mon, 24 Dec 2018 18:00:00 +0200</pubDate>
+      <time>24.12.2016 18:00</time>
+      <guid>http://anonymous.support/play/?v=VUKWDF03qjE</guid>
+    </item>
+
+    <item>
+      <title>24.12.2018 #OpSafeWinter Berlin, Germany</title>
+      <description><![CDATA[
+      Der Weihnachtsmann ist im Yaam unterwegs, um obdachlose in Berlin zu beschenken!
+      <a href=http://anonymous.support/play/?v=fTrC-5R2b0o><img alt="anonymous.support" align="left"
+      style="margin-left: 10px;" src="http://anonymous.support/live/play.png" BORDER=0 /></a>]]>
+      </description>
+      <link>http://anonymous.support/play/?v=fTrC-5R2b0o</link>
+      <pubDate>Mon, 24 Dec 2018 16:00:00 +0200</pubDate>
+      <time>24.12.2016 16:00</time>
+      <guid>http://anonymous.support/play/?v=fTrC-5R2b0o</guid>
+    </item>
+    
+  </channel>
+</rss>
